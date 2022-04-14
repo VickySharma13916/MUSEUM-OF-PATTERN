@@ -45,14 +45,11 @@ body{
     font-size: 2rem;
 }
 
-.navbar .scrolled{
-    background: #d58ee7;
-    transition: background 500ms;
-}
-
-#mainNavbar:hover   {
-    background-color: #d58ee7;
-    transition: background-color 500ms;
+#mainNavbar.active{
+    background-color: #f498b8;
+    transition: background-color 200ms linear;
+    height:50px;
+    margin-bottom: 10px;
 }
 
 @media (min-width:1000px) and (max-width:1200px){
